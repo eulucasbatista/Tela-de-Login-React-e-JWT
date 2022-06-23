@@ -1,4 +1,4 @@
-import logoIMG from'./assets/logo.svg'
+import logoIMG from'./assets/jp.svg'
 
 import './styles.css'
 
@@ -15,12 +15,12 @@ function App() {
           <img src={logoIMG} alt="Logo Code" />
         </span>
         <div className="wrap-input">
-          <input type="email"></input>
+          <input className="input" type="email"></input>
           <span className="focus-input" data-placeholder="Email"></span>
         </div>
 
         <div className="wrap-input">
-        <input type="password"></input>
+        <input className="input" type="password"></input>
         <span className="focus-input" data-placeholder="Password"></span>
         </div>
 
